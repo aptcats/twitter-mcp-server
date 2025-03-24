@@ -1,0 +1,24 @@
+{
+  "name": "twitter-mcp-server",
+  "version": "1.0.0",
+  "description": "Twitter integration for AI agents using MCP standard",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node build/index.js",
+    "inspector": "mcp-inspector"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.15.0",
+    "dotenv": "^16.0.3",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4",
+    "mcp-inspector": "^1.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
